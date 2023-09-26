@@ -1,5 +1,5 @@
 
-<style>
+<style type="text/css">
 	a:link{
 		text-decoration: none;
 	}
@@ -7,7 +7,7 @@
 		text-decoration: none;
 	}
 	a:hover{
-		text-decoration: overline grey;
+		text-decoration-color: grey;
 	}
 	a:active{
 		text-decoration: none;
