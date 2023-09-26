@@ -1,4 +1,15 @@
 
 <style type="text/css">
-	a {text-decoration: none; }
+	a:link{
+		text-decoration: none;
+	}
+	a:visited{
+		text-decoration: none;
+	}
+	a:hover{
+		text-decoration: overline grey;
+	}
+	a:active{
+		text-decoration: none;
+	}
 </style>
