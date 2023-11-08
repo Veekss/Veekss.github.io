@@ -11,50 +11,16 @@ header {
 	background-size: cover;
 	border-radius: 5px;
 }
-#border{
-		border: 3px insert black;
-	border-width: 5px;
-	background-repeat: no-repeat;
-	background-size: cover;
-	border-radius: 5px;
-}
-body{
-	font-family: Helvetica;
-}
-
-h1{
-	text-align: center;
-	color: orange;
-}
-h2{
-	color: grey;
-}
 header h2{
 	margin: 0;
 	margin-right: 20px;
 	color: #25CED1;
-}
-#list{
-	color: lightgrey;
-	font-size: 1.5em;
-}
-#img{
-	bottom: 0%;
-}
-#location{
-	border: 4px solid #000000;
 }
 p{
 	margin: 0;
 	padding:0;
 	text-align: center;
 	color: lightgrey;
-}
-a{
-	text-decoration: none;
-}
-a:hover{
-	color: black;
 }
 nav{
 	background-color: black;
@@ -80,27 +46,26 @@ footer {
 	color: lightgrey;
 	background-color: black;
 }
-
 footer p a{
 	text-decoration: none;
 	color: grey;
 	text-align: center;
 	width: 100%
 }
-#projects {
-	margin: 0;
-	padding:0;
-	text-align: center;
-	color: purple;
+
+#one{
+	display: block;
 }
-#projects p{
-	font-size: 1.5em;
-	text-decoration: none;
+#two{
+	display: none;
 }
-@media screen and (min-width: 1050px) {
-.grid {
-	margin-top: 20px;
-	display: grid;
-	grid-template-columns: auto auto auto;	
+#three{
+	display: none;
 }
+
+#hide{
+	display: none !important;
+}
+#show{
+	display: block !important;
 }
