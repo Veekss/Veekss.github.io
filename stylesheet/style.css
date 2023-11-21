@@ -56,6 +56,9 @@ a{
 a:hover{
 	color: black;
 }
+#left{
+	text-align: left;
+}
 nav{
 	background-color: black;
 }
@@ -70,6 +73,9 @@ nav a{
 	text-align: right;
 }
 footer {
+	box-sizing: border-box;
+	left: 0;
+	
 	font-size: 1.1em;
 	padding: 0.5em;
 	margin-top: 0%;
