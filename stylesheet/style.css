@@ -20,6 +20,9 @@ header {
 }
 body{
 	font-family: Helvetica;
+	background-image: url('https://31.media.tumblr.com/87bc23dee4647335a6cbc4e8208496d2/tumblr_mqi54jpnCP1sok1hbo1_1280.gif');
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 h1{
